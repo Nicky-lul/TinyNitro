@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# TinyNitro generated files
+*.tnpak
+runtime/nds/data/game.tnpak
+
+# devkitPro / DS build output
+runtime/nds/build/
+runtime/nds/*.elf
+runtime/nds/*.nds
+runtime/nds/*.ds.gba
+runtime/nds/*.map
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
